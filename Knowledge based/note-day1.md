@@ -16,3 +16,10 @@
 ## Bug I hit
 - Got "No such file or directory" because I was in the root folder, not Practice Spot
 - Fixed by cd-ing into the right folder first
+
+## git add, push, and pull
+- cd into a folder before running files in it
+-git add . / git commit save changes locally
+-git push sends them to GitHub — but fails if GitHub has changes you don't have locally
+-git pull (or git pull --no-rebase) merges those remote changes in first
+-Sometimes pull opens an editor for a merge message — just save/close (or click Commit) to finish it
